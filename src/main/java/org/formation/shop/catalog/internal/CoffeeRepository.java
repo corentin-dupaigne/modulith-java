@@ -1,4 +1,6 @@
 package org.formation.shop.catalog.internal;
 
-public class CoffeeRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CoffeeRepository extends JpaRepository<CoffeeEntity, Long> {
 }

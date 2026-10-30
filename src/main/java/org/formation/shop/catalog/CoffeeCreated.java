@@ -1,4 +1,4 @@
 package org.formation.shop.catalog;
 
-public class CoffeeCreated {
+public record CoffeeCreated(Long coffeeId, String name) {
 }
